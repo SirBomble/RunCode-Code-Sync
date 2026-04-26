@@ -1,0 +1,28 @@
+:root {
+  --bg-page: #f4f7fb;
+  --bg-pill: #fff;
+  --color-pill: #1f2937;
+  --bg-dot: #16a34a;
+}
+
+body {
+  background-color: var(--bg-page);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .pill {
+    background-color: var(--bg-pill);
+    border: 2px solid var(--color-pill);
+    border-radius: 20.5px;
+    padding: 10.5px 18px 10.5px 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    .dot {
+      background-color: var(--bg-dot);
+      border-radius: 50%;
+      height: 12px;
+      width: 12px;
+    }
+  }
+}
