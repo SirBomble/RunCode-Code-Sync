@@ -1,0 +1,18 @@
+:root {
+  --bg-page: #f3f4f6;
+  --color-primary: #3b82f6;
+  --box-size: 200px;
+}
+
+body {
+  background-color: var(--bg-page);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .box {
+    background-color: var(--color-primary);
+    width: var(--box-size);
+    height: var(--box-size);
+    border-radius: 10px;
+  }
+}
