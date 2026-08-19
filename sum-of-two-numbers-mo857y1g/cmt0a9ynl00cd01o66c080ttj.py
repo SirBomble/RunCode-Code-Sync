@@ -1,0 +1,5 @@
+num = input()
+nums_array = num.split()
+nums_map = map(int, nums_array)
+output = sum(nums_map)
+print(output)
